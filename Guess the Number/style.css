@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Amatic SC", cursive;
+  color: #fff;
+  overflow: hidden;
+}
+
+body {
+  background-color: #000;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+h1 {
+  font-size: 10rem;
+  text-align: center;
+  color: #000;
+}
+header {
+  border-bottom: 5px solid #fff;
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+  background-color: #fff;
+}
+
+p {
+  font-size: 5rem;
+}
+
+header p {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #000;
+}
+
+.secretNumber {
+  background-color: #000;
+  font-size: 6rem;
+  font-weight: 700;
+  padding: 1.5rem 2rem 2rem 2rem;
+  color: #fff;
+  width: 20rem;
+  height: 10rem;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.guessSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.responseSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.guessSection input {
+  height: 10rem;
+  width: 20rem;
+  padding: 2rem;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.responseSection > p {
+  margin-bottom: 2rem;
+}
+
+.responseSection p span {
+  font-weight: 700;
+}
+
+.button {
+  width: 12rem;
+  height: 8rem;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 4rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+/* name change section */
+.name{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.replies{
+  font-size: 3rem;
+}
+.changeName{
+  width: 12rem;
+  height: 8rem;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+  font-size: 2.5rem;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.newName{
+  visibility: hidden;
+}
+#nameData{
+  width: 120px;
+  height: 40px;
+  font-size: 3rem;
+  font-family: "Amatic SC", cursive;
+  font-weight: 700;
+}
+/* name change section end */
+
+footer {
+  padding-top: 14rem;
+}
+
+footer p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.againButton {
+  position: fixed;
+  right: 5rem;
+  margin-top: 2rem;
+}
+
+button:active {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+}

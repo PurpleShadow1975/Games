@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <title>Guess the number</title>
+  </head>
+
+  <body>
+    <header>
+      <button class="button againButton">Again!</button>
+      <h1>Guess the Number!</h1>
+      <p>Between 1 and 50</p>
+      <div class="secretNumber">???</div>
+    </header>
+
+    <main>
+      <section class="guessSection">
+        <input type="number" class="guessedNumber">
+        <button class="button checkButton">Check!</button>
+      </section>
+      <section class="name">
+        <div class="replies">Welcome to the Game, Traveler</div> 
+        <button class="changeName">Don't call me that</button>
+        <input id='nameData'type="text" class="newName">
+      </section>
+      <section class="responseSection">
+        <p class="comment">Start<span></span></p>
+        <p class="scoreText">Score: <span class="score">50</span></p>
+        <p class="highscoreText">Highscore: <span class="highscore">0</span></p>
+      </section>
+    </main>
+    <footer>
+      <p>Designed & Created by Antje Myriknas &#169; 2022</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+
+</html>

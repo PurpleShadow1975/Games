@@ -1,0 +1,91 @@
+@media (min-width: 350px) and (max-width: 915px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 3rem;
+  }
+
+  header p {
+    font-size: 3rem;
+  }
+  main {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  header {
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+  }
+
+  footer {
+    font-size: 1rem;
+  }
+
+  .button {
+    width: 6rem;
+    height: 4rem;
+    font-size: 2rem;
+    padding: 0;
+  }
+
+  .secretNumber {
+    width: 10rem;
+    height: 5rem;
+    font-size: 3rem;
+    /* margin-bottom: 1rem; */
+    padding: 0.5rem;
+  }
+  /* formatting for name changer */
+  .changeName{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    #nameData{
+      margin-bottom: 20px;
+    }
+    .replies {
+      margin-top: 20px;
+    }
+    /* name change section end */
+  .responseSection > p {
+    margin-bottom: 0;
+  }
+
+  .guessSection input {
+    height: 5rem;
+    width: 10rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+
+  .againButton {
+    position: sticky;
+    width: 100vw;
+  }
+
+  .responseSection {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+
+  .guessSection {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .comment {
+    display: block;
+  }
+
+  .checkButton {
+    height: 5rem;
+    width: 10rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+}
